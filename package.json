@@ -1,0 +1,17 @@
+{
+  "name": "tencent-purge-urls",
+  "version": "1.0.0",
+  "description": "一个简单的刷新腾讯 CDN 目录缓存的 CLI 函数",
+  "bin": {
+    "purge-urls": "index.js"
+  },
+  "keywords": [
+    "tencent"
+  ],
+  "author": "inkss",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "tencentcloud-sdk-nodejs": "^4.0.331"
+  }
+}
